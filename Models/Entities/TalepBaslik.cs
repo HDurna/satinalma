@@ -1,52 +1,32 @@
+using satinalma.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using satinalma.Models.Enums;
 
 namespace satinalma.Models.Entities
 {
-    [Table("TalepBaslik")]
     public class TalepBaslik
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(50)]
-        public string TalepNo { get; set; } = string.Empty;
+        public string TalepNo { get; set; }
 
-        [Required]
-        public DateTime TalepTarihi { get; set; }
+        public DateTime TalepTarihi { get; set; } // Adýný senin istediðin gibi TalepTarihi yaptým
+        public DateTime SevkTarihi { get; set; }  // GERÝ GELDÝ
 
-        public DateTime? SevkTarihi { get; set; }
+        public string Aciklama { get; set; }
+        public string TalepBirimi { get; set; }   // GERÝ GELDÝ
+        public string TalepEden { get; set; }     // GERÝ GELDÝ
 
-        [Required]
-        [MaxLength(200)]
-        public string TalepBirimi { get; set; } = string.Empty;
-
-        [Required]
+        public TalepDurumu Durum { get; set; }
         public TalepTipi Tip { get; set; }
 
-        public int EkapYapildi { get; set; } = 0;
+        public bool EkapYapildi { get; set; }     // GERÝ GELDÝ
 
-        [Required]
-        public TalepDurumu Durum { get; set; }
+        public int KullaniciId { get; set; }
+        public Kullanici Kullanici { get; set; }
 
-        [MaxLength(100)]
-        public string TalepEden { get; set; } = string.Empty;
-
-        public int SilmeDurumu { get; set; } = 0;
-
-        [MaxLength(500)]
-        public string SilmeAciklamasi { get; set; } = string.Empty;
-
-        [MaxLength(500)]
-        public string Aciklama { get; set; } = string.Empty;
-
-        public int? SiparisId { get; set; }
-
-        // Navigation property
-        public virtual ICollection<TalepDetay> TalepDetaylari { get; set; } = new List<TalepDetay>();
+        public ICollection<TalepDetay> TalepDetaylari { get; set; }
     }
 }

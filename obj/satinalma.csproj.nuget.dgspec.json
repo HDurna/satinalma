@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2-Hikmet\\3-KİŞİSEL ÇALIŞMALAR\\3)Yazılım\\satinAlma\\satinalma\\satinalma.csproj": {}
+    "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj": {}
   },
   "projects": {
-    "D:\\2-Hikmet\\3-KİŞİSEL ÇALIŞMALAR\\3)Yazılım\\satinAlma\\satinalma\\satinalma.csproj": {
+    "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2-Hikmet\\3-KİŞİSEL ÇALIŞMALAR\\3)Yazılım\\satinAlma\\satinalma\\satinalma.csproj",
+        "projectUniqueName": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj",
         "projectName": "satinalma",
-        "projectPath": "D:\\2-Hikmet\\3-KİŞİSEL ÇALIŞMALAR\\3)Yazılım\\satinAlma\\satinalma\\satinalma.csproj",
-        "packagesPath": "C:\\Users\\Simpaş\\.nuget\\packages\\",
-        "outputPath": "D:\\2-Hikmet\\3-KİŞİSEL ÇALIŞMALAR\\3)Yazılım\\satinAlma\\satinalma\\obj\\",
+        "projectPath": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj",
+        "packagesPath": "C:\\Users\\hikme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Simpaş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hikme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

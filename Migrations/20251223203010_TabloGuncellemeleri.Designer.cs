@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using satinalma.Data;
 
@@ -11,9 +12,11 @@ using satinalma.Data;
 namespace satinalma.Migrations
 {
     [DbContext(typeof(SatinAlmaDbContext))]
-    partial class SatinAlmaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251223203010_TabloGuncellemeleri")]
+    partial class TabloGuncellemeleri
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -61,7 +64,13 @@ namespace satinalma.Migrations
 
                     b.Property<string>("BirimAdi")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("HarcamaYetkilisi")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -309,22 +318,11 @@ namespace satinalma.Migrations
                     b.Property<int>("KullaniciId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("SevkTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("TalepBirimi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TalepEden")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("TalepNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<DateTime>("TalepTarihi")
+                    b.Property<DateTime>("Tarih")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Tip")

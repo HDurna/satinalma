@@ -1,32 +1,26 @@
+using satinalma.Models.Entities;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace satinalma.Models.Entities
 {
-    [Table("Urunler")]
     public class Urun
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(100)]
-        public string KategoriAdi { get; set; } = string.Empty;
+        public string UrunAdi { get; set; }
 
-        [Required]
-        [MaxLength(200)]
-        public string UrunAdi { get; set; } = string.Empty;
+        public string? Aciklama { get; set; }
 
-        [MaxLength(200)]
-        public string Ozellik1 { get; set; } = string.Empty;
+        // Ýliþkiler
+        public int BirimId { get; set; }
+        public Birim Birim { get; set; }
 
-        [MaxLength(200)]
-        public string Ozellik2 { get; set; } = string.Empty;
+        public int KategoriId { get; set; }
+        public Kategori Kategori { get; set; }
 
-        [MaxLength(200)]
-        public string Ozellik3 { get; set; } = string.Empty;
-
-        [MaxLength(800)]
-        public string TamAd { get; set; } = string.Empty;
+        // BU EKSÝKTÝ, EKLÝYORUZ:
+        public bool Aktif { get; set; } = true;
     }
 }
