@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("satinalma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eae03ff2256a910a293289b1fee8471067e45bf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("satinalma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("satinalma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,7 +21,7 @@ namespace satinalma
             // Entity Framework Core ile veritabanını başlat
             using (var context = new SatinAlmaDbContext())
             {
-                context.Database.EnsureCreated();
+                //context.Database.EnsureCreated();
             }
 
             bool programCalisiyor = true;

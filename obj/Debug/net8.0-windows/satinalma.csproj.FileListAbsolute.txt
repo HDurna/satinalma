@@ -190,3 +190,4 @@ D:\2-Hikmet\3-KİŞİSEL ÇALIŞMALAR\3)Yazılım\satinAlma\satinalma\bin\Debug\
 D:\2-Hikmet\3-KİŞİSEL ÇALIŞMALAR\3)Yazılım\satinAlma\satinalma\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\2-Hikmet\3-KİŞİSEL ÇALIŞMALAR\3)Yazılım\satinAlma\satinalma\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\2-Hikmet\3-KİŞİSEL ÇALIŞMALAR\3)Yazılım\satinAlma\satinalma\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\2-Hikmet\3-KİŞİSEL ÇALIŞMALAR\3)Yazılım\satinAlma\satinalma\obj\Debug\net8.0-windows\satinalma.sourcelink.json
