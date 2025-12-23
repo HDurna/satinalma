@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj": {}
+    "C:\\Users\\hikme\\source\\repos\\satinalma\\satinalma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj": {
+    "C:\\Users\\hikme\\source\\repos\\satinalma\\satinalma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj",
+        "projectUniqueName": "C:\\Users\\hikme\\source\\repos\\satinalma\\satinalma.csproj",
         "projectName": "satinalma",
-        "projectPath": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\satinalma.csproj",
+        "projectPath": "C:\\Users\\hikme\\source\\repos\\satinalma\\satinalma.csproj",
         "packagesPath": "C:\\Users\\hikme\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hikme\\Source\\Repos\\satinalma\\obj\\",
         "projectStyle": "PackageReference",

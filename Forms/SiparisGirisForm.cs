@@ -1,12 +1,9 @@
-using System;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
 using satinalma.Data;
 using satinalma.Models.Entities;
 using satinalma.Models.Enums;
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Data;
+using System.Linq;
 
 namespace satinalma.Forms
 {
