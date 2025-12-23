@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\BildirimlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SilinmisTaleplerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SilmeOnayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SiparisDetayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SiparisGirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SiparisListesiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StokBulForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TalepEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TalepListesiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TanimlamalarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TalepDetayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TedarikciYonetimiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
